@@ -27,7 +27,7 @@ class MyForm extends React.Component {
         event.preventDefault();
         let email=this.state.email;
         if (!this.validate(email)) {
-            alert("Please enter a valid email");
+            alert("Please enter a valid email.....");
           }
         let age = this.state.age;
         if (!Number(age)) {
